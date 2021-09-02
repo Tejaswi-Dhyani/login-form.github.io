@@ -1,0 +1,99 @@
+<html>
+<head>
+<title>login form</title>
+<style type="">
+body{
+	margin: 0;
+	padding: 0;
+	background: url(pic2.jpg);
+	background-size:cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	font-family: 'Acme', sans-serif;
+}
+.loginbox{
+	width: 320px;
+	height: 420px;
+	background: rgba(0, 0, 0, 0.7);	
+	border-radius: 20%;
+	color: #fff;
+	top: 50%;
+	left: 50%
+	position: absolute;
+	transform: translate(180%, 40%); 
+	box-sizing: border-box;
+	padding: 60px 40px;
+}
+h1{
+	margin: 0;
+	text-align: center;
+	font-size: 32px;
+	padding-bottom:15px; 
+}
+.loginbox p{
+	padding: 0;
+	margin: 0;
+font-weight: bold;
+letter-spacing: 1px;
+}
+.loginbox input{
+width: 100%;
+margin-bottom: 20px;
+}
+ .loginbox input[type="text"], input[type="password"]{
+	border: none;
+	outline: none;
+	background: transparent;
+	border-bottom: 1px solid #fff;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+
+}
+.loginbox input[type="submit"]{
+	border: none;
+	outline: none;
+	background: #fb2525;
+	height: 40px;
+	color: #fff;
+	font-size: 18px;
+	font-weight: bold;
+	border-radius: 20px;
+}
+.loginbox input[type="submit"]:hover{
+	cursor: pointer;
+	background: #ffc107;
+	color: #000;
+}
+.loginbox a{
+	text-decoration: none;
+	font-size: 16px;
+	color:darkgrey;
+}
+.loginbox a:hover{
+	color: #ffc107;
+}
+
+
+</style>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+</head>
+<body>
+
+	<div class="loginbox">
+		<h1>Login Here</h1>
+		<form>
+			<p>Username</p>
+			<input type="text"  name="" placeholder="Enter Username">
+			<p>Password</p>
+			<input type="password"  name="" placeholder="Enter Password">
+			<input type="submit" name="" value="Login"><br>
+			<a href="#">Forgot your Password?</a><br>
+			<a href="#">Don't have an account?</a>
+
+		</form>
+	</div>
+	
+</body>
+</html>
